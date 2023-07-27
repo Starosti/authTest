@@ -1,0 +1,8 @@
+const toastConfig = {
+  position: "top-center",
+  autoClose: 2000,
+  hideProgressBar: false,
+  closeOnClick: true,
+  pauseOnHover: true,
+};
+export default toastConfig;

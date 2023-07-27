@@ -1,0 +1,34 @@
+#formTitle {
+  font-weight: 700;
+  font-size: 2em;
+}
+#formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  margin: 0 1em;
+}
+#form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5em;
+  border: 2px solid black;
+  border-radius: 1em;
+  padding: 1em;
+}
+.valid {
+  border-color: green;
+}
+.invalid {
+  border-color: red;
+}
+#form > * {
+  display: flex;
+  align-items: end;
+}
+#formSubmitBtn {
+  grid-area: span 1 / span 2;
+  margin-top: 0.5em;
+}

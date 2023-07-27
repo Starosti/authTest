@@ -1,0 +1,30 @@
+button {
+  display: flex;
+  line-height: 2em;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5em;
+  background: white;
+  border: 2px solid black;
+  padding: 0.5em;
+}
+
+input {
+  border-radius: 0.5em;
+  border: 2px solid black;
+  padding: 0.5em;
+  transition: border-color cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #777;
+}
+
+button:hover {
+  cursor: pointer;
+  background: #ddd;
+}
+button:active {
+  background: #bbb;
+}
